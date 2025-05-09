@@ -1,4 +1,6 @@
-#Dolár = R$5.71
+#Dolár = R$5.69
+#Euro = R$6.44
+#Iene = R$0.039
 #dividido p/real multiplicar p/ dolar
 
 real = float(input('Quanto você têm na carteira? R$'))
