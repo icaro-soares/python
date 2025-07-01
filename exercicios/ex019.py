@@ -1,0 +1,1 @@
+#Crie um programa que faça o sorteio de um aluno de uma lista de 4 alunos

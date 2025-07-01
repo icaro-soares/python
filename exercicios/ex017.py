@@ -1,0 +1,1 @@
+#Crie um programa que leia os catetos de um triangulo retangulo e calculr sua hipotenusa

@@ -1,0 +1,1 @@
+#Crie um programa que leia um ângulo qualquer e diga seu seno, cosseno e tangente
