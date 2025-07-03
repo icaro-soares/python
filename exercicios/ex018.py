@@ -2,8 +2,9 @@
 from math import sin, cos, tan, radians
 
 
-angulo = int(input('Digite um ângulo: '))
-seno = sin(radians(angulo))
-cosseno = cos(radians(angulo))
-tangente = tan(radians(angulo))
-print(f'O seno, cosseno e tangente de {angulo} vale: \n{seno}\n{tangente}\n{cosseno}')
+angulo = int(input('Digite um ângulo qualquer: '))
+angulo_radianos = radians(angulo)
+seno = sin(angulo_radianos)
+cosseno = cos(angulo_radianos)
+tangente = tan(angulo_radianos)
+print(f'O seno de {angulo}° é {seno:.2f}\nO cosseno de {angulo}° é {cosseno:.2f}\nA tangente de {angulo}° é {tangente:.2f}')
