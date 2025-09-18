@@ -1,0 +1,13 @@
+#Faça um programa que leia um número Inteiro qualquer e mostre na tela a sua tabuada.
+n = int(input('Digite um valor qualquer: '))
+print(f'Tabuada de {n}')
+print(f'{1:>2} x {n} = {n*1:>2}')
+print(f'{2:>2} x {n} = {n*2:>2}')
+print(f'{3:>2} x {n} = {n*3:>2}')
+print(f'{4:>2} x {n} = {n*4:>2}')
+print(f'{5:>2} x {n} = {n*5:>2}')
+print(f'{6:>2} x {n} = {n*6:>2}')
+print(f'{7:>2} x {n} = {n*7:>2}')
+print(f'{8:>2} x {n} = {n*8:>2}')
+print(f'{9:>2} x {n} = {n*9:>2}')
+print(f'{10} x {n} = {n*10}')
