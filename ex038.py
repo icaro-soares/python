@@ -2,11 +2,3 @@
 #O primeiro valor é maior
 #O segundo valor é maior
 #Não existe valor maior, os dois são iguais
-n1 = int(input('Escreva o 1º valor: '))
-n2 = int(input('Escreva o 2º valor: '))
-if n1 > n2:
-    print('O 1º valor é maior')
-elif n1 < n2:
-    print('O 2º valor é maior')
-elif n1 == n2:
-    print('O 1º e 2º valor são iguais')
