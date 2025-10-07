@@ -1,23 +1,33 @@
 #Crie um programa que faça o computador jogar Jokenpô com você
 from random import randint
 import emoji
+from time import sleep
 
 j1 = int(input('Escolha sua jogada\n[ 0 ] Pedra\n[ 1 ] Papel\n[ 2 ] Tesoura: '))
 if j1 == 0:
-    escolha_j1 = emoji.emojize(':curling_stone:')
+    escolha_j1 = emoji.emojize(':punho_levantado:', language='pt')
 elif j1 == 1:
-    escolha_j1 = emoji.emojize(':newspaper:')
+    escolha_j1 = emoji.emojize(':mão_aberta_com_os_dedos_separados:', language='pt')
 elif j1 == 2:
-    escolha_j1 = emoji.emojize(':scissors:')
+    escolha_j1 = emoji.emojize(':mão_em_v_de_vitória:', language='pt')
+else:
+    print('Escolha inválida')
+    exit()
 
 cpu = randint(0, 2)
 if cpu == 0:
-    escolha_cpu = emoji.emojize(':curling_stone:')
+    escolha_cpu = emoji.emojize(':punho_levantado:', language='pt')
 elif cpu == 1:
-    escolha_cpu = emoji.emojize(':newspaper:')
+    escolha_cpu = emoji.emojize(':mão_aberta_com_os_dedos_separados:', language='pt')
 elif cpu == 2:
-    escolha_cpu = emoji.emojize(':scissors:')
+    escolha_cpu = emoji.emojize(':mão_em_v_de_vitória:', language='pt')
 
+print('JO')
+sleep(.5)
+print('KEN')
+sleep(.5)
+print('PO')
+sleep(.5)
 print('='*20)
 print(f'O jogador escolheu {escolha_j1}')
 print(f'A cpu escolheu {escolha_cpu}')
