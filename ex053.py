@@ -1,7 +1,9 @@
 frase = str(input('Digite uma frase: ')).strip().lower()
-frase_invertida = (frase[::-1])
-print(f'A sua frase invertida:\n{frase_invertida}')
-if frase == frase_invertida:
-    print('A frase é um palíndromo!')
+frase_unica = ''.join(frase.split())
+print(frase_unica)
+frase_invertida = (frase_unica[::-1])
+print(frase_invertida)
+if frase_unica == frase_invertida:
+    print('A frase acima é um palíndromo!')
 else:
-    print('A frase não é um palíndromo!')
+    print('A frase acima não é um palíndromo!')
