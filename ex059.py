@@ -1,4 +1,3 @@
-
 funcionando = True
 n1 = int(input('Insira o 1º valor: '))
 n2 = int(input('Insira o 2º valor: '))
@@ -37,5 +36,3 @@ while funcionando:
         case 6:
             print('Obrigado por usar a calculadora!')
             funcionando = False
-            
-        
