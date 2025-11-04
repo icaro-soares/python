@@ -19,6 +19,4 @@ print('='*20)
 print(sorted(times))
 print('='*20)
 #Posição do 'Vasco da Gama'
-if 'Vasco da Gama' in times:
-    print(f'O time Vasco da Gama está em {times.index('Vasco da Gama')+1}º lugar')
-
+print(f'O time Vasco da Gama está em {times.index('Vasco da Gama')+1}º lugar')
