@@ -4,6 +4,8 @@ from random import randint
 pontos = 1000
 chances = 0
 número_secreto = randint(0, 100)
+print('ADIVINHANDO'.center(60))
+print('-='*30)
 dificuldade = int(input('Escolha a dificuldade [1 - Fácil][2 - Médio][3 - Difícil]: '))
 match dificuldade:
     case 1:
@@ -34,4 +36,3 @@ while chances > 0:
         if chances == 0:
             print(f'Suas chances acabaram! O número secreto era {número_secreto}')
             pontos = 0
-print(f'Pontuação final {pontos}')
