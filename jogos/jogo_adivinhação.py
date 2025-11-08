@@ -19,10 +19,12 @@ match dificuldade:
         chances = 5
 while chances > 0:
     chute = int(input('Tente adivinhar o número secreto: '))
+    #Condição p/ ganhar
     if chute == número_secreto:
         print('Parabéns! Você acertou!')
         print(f'Pontuação final: {pontos}')
         break
+    #Condição de pontuação
     elif chute != número_secreto:
         chances-=1
         if chute > número_secreto:
@@ -36,3 +38,12 @@ while chances > 0:
         if chances == 0:
             print(f'Suas chances acabaram! O número secreto era {número_secreto}')
             pontos = 0
+            print(f'Pontuação final: {pontos}')
+    #Condição para perder sem pontos
+    elif pontos <= 0:
+        print(f'Pontuação final: {pontos}')
+        print('Seus pontos chegaram a zero, que pena, você perdeu.')
+        print(f'O número secreto era {número_secreto}')
+        break
+
+
