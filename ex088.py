@@ -1,1 +1,5 @@
-
+mega = 'Mega da virada'.upper()
+print('-='*len(mega))
+print(mega.center(30))
+print('-='*len(mega))
+jogos = int(input('Quantos jogos devo fazer: '))
