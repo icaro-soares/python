@@ -10,4 +10,4 @@ while cont <= jogos:
         while num not in lista:
             lista.append(num)
     print(lista)
-   
+    c+=1
