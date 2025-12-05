@@ -10,8 +10,6 @@ if dados['ct'] != 0:
     dados['salario'] = float(input('Salário: R$'))
     dados['contratação'] = int(input('Ano de contratação: '))
     dados['aposentadoria'] = dados['idade'] + ((dados['contratação'] + 65) - date.today().year)
-else:
-    dados['ct'] = 'Não existe'
 print('-='*30)
 for k, v in dados.items():
     print(f'{k}: {v}')
