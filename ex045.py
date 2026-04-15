@@ -25,9 +25,31 @@ elif comp == 1:
     print('O computador jogou papel')
 elif comp == 2:
     print('O computador jogou tesoura')
-else:
-    print('Jogada inválida')
-
+print('-='*30)
 
 # Condições
 
+# Pedra
+if j1 == 0: 
+    if comp == 0:
+        print('Empatou!')
+    elif comp == 1:
+        print('O cpu venceu!')
+    elif comp == 2:
+        print('O jogador venceu!')
+# Papel
+elif j1 == 1:
+    if comp == 0:
+        print('O jogador venceu!')
+    elif comp == 1:
+        print('Empatou!')
+    elif comp == 2:
+        print('O cpu venceu!')
+# Tesoura
+elif j1 == 2:
+    if comp == 0:
+        print('O cpu venceu!')
+    elif comp == 1:
+        print('O jogador venceu!')
+    elif comp == 2:
+        print('Empate!')
