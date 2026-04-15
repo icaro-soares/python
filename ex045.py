@@ -14,7 +14,8 @@ elif j1 == 1:
 elif j1 == 2:
     print('Você jogou tesoura')
 else:
-    print('Jogada inválida')
+    print('Jogada inválida, aplicação encerrada!')
+    exit()
 
 # Computador faz a jogada
 comp = randrange(0, 3)
@@ -26,3 +27,7 @@ elif comp == 2:
     print('O computador jogou tesoura')
 else:
     print('Jogada inválida')
+
+
+# Condições
+
