@@ -1,0 +1,5 @@
+No Python, podemos somar valores
+No Python, podemos realizar cálculos complicados
+No Python, podemos fazer a contagem de caracteres presentes em uma cadeia de caracteres
+No Python, podemos calcular descontos, juros
+No Python, podemos analisar dados de diversas pessoas
