@@ -1,3 +1,4 @@
+import os
 import pygame
 
 
@@ -8,8 +9,14 @@ class Ship:
         self.screen = ai_game.screen
         self.screen_rect = ai_game.screen.get_rect()
 
-        # Sobe a imagem da espaçonave e obtem seu rect
-        self.image = pygame.image.load('images/ship.bmp')
+        # Obtém o caminho absoluto da pasta onde está o ship.py
+        current_dir = os.path.dirname(os.path.abspath(__file__))
+        
+        # Constrói o caminho completo até a imagem (ajuste 'images' se sua pasta for no singular 'image')
+        image_path = os.path.join(current_dir, 'images', 'ship.bmp')
+
+        # Carrega a imagem da espaçonave e obtém seu rect
+        self.image = pygame.image.load(image_path)
         self.rect = self.image.get_rect()
         
         # Começa cada espaçonave nova no centro inferior da tela
