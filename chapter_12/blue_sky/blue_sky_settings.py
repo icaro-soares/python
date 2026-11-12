@@ -3,3 +3,4 @@ class Settings:
         self.screen_width = 1200
         self.screen_height = 600
         self.bg_screen = (40, 160, 200)
+        

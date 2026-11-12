@@ -6,6 +6,7 @@ from blue_sky_settings import Settings
 
 class BlueSky:
     def __init__(self):
+        """Inicializador do game"""
         pygame.init()
         self.clock = pygame.time.Clock()
         self.settings = Settings()
