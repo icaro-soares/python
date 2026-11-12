@@ -33,7 +33,7 @@ class AlienInvasion:
                 sys.exit()
 
 
-    def _udate_screen(self):
+    def _update_screen(self):
         self.screen.fill(self.settings.bg_color)
         self.ship.blitme()
         pygame.display.flip()
