@@ -1,7 +1,0 @@
-Jogo Invasão Alienígena o jogador controla uma nave
-na parte inferior da tela para direita e esquerda; enquanto atira
-em uma frota de espaçonaves alienígenas que se movimentam
-para cima e para baixo, para direita e para a esquerda.
-O objetivo é destruir todas as naves antes que toquem a espaçonave
-do jogador ou toquem o lado oposto da tela
-Se isso acontecer o jogo acaba, se acontecer 3x teremos um Game Over.
