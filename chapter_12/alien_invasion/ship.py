@@ -12,7 +12,7 @@ class Ship:
 
 
         # Sobe a imagem da espaçonave e obtem seu rect
-        self.image = pygame.image.load('image/ship.bmp')
+        self.image = pygame.image.load('images/ship.bmp')
         self.rect = self.image.get_rect()
 
 
