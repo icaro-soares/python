@@ -1,3 +1,10 @@
 {
-    "python-envs.defaultEnvManager": "ms-python.python:system"
+    "python-envs.defaultEnvManager": "ms-python.python:system",
+    "editor.rulers": [80],
+    "editor.wordWrap": "bounded",
+    "editor.wordWrapColumn": 79,
+    "code-runner.executorMap": {
+        "python": "python -u"
+    },
+    "code-runner.runInTerminal":true,
 }
